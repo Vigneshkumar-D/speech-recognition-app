@@ -1,0 +1,102 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.title-con{
+    background-color: #318CE7;
+}
+.title{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    align-self: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.start-btn{
+    width: 100px;
+    background-color: rgb(35, 206, 8);
+    font-family: 'Gill Sans', sans-serif;
+    margin: 5px;
+    color: #ffffff;
+}
+.spinner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-self:"last baseline"  ; */
+    background-color: #ffffff;
+    padding-bottom: 0px;
+}
+.stop-btn{
+    width: 100px;
+    background-color: rgb(228, 48, 20);
+    font-family: 'Gill Sans', sans-serif;
+    margin: 5px;
+    color: #ffffff;
+}
+.speech-text{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.speech-text-con{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-self: center;
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    /* flex-grow: 1; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.submit-btn{
+    width: 100px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .title{
+        font-size: 19px;
+        padding: 15px;
+    }
+    .sub-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+        align-self: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .speech-text-con{
+        width: 90%;
+        height: 60%;
+        padding: 3%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    .speech-text{
+        font-size: 16px;
+    }
+    .spinner{
+        font-size: 16px;
+    }
+}
+
