@@ -8,9 +8,10 @@
 }
 .title{
     color: #ffffff;
-    font-size: 28px;
+    font-size: 25px;
     font-family: 'Gill Sans', sans-serif;
     font-weight: 600;
+    padding: 10px;
 }
 .sub-container{
     display: flex;
@@ -23,7 +24,7 @@
 }
 .start-btn{
     width: 100px;
-    background-color: rgb(35, 206, 8);
+    background-color: rgb(34, 201, 8);
     font-family: 'Gill Sans', sans-serif;
     margin: 5px;
     color: #ffffff;
@@ -67,6 +68,12 @@
     width: 100px;
     align-self: center;
     margin-top: 20px;
+}
+.btn-con{
+    display: flex;
+    align-self: center;
+    width: 300px;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 767px){
