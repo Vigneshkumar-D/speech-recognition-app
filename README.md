@@ -29,45 +29,43 @@ To run the Speech Recognition App frontend locally, follow these steps:
    ```
 
 2. **Navigate to the Project Directory:**
-   ```
-   cd speech-recognition-app/frontend
-   ```
+      ```
+      cd speech-recognition-app/frontend
+      ```
 
 3. **Install Dependencies:**
-   ```
-   npm install
-   ```
+      ```
+      npm install
+      ```
 
 4. **Start the Development Server:**
-   ```
-   npm start
-   ```
+      ```
+      npm start
+      ```
 ## Setting Up the Backend
 1. **Clone the Repository:**
-   ```
    Clone the backend repository of the Data Search Application from the version control system (e.g., GitHub) to your local machine using Git:
+   ```
    git clone <repository_url>
    ```
 2. **Navigate to the Backend Directory:**
-   ```
    Open a terminal and change the directory to the backend folder of the cloned repository:
+   ```
    cd searchApp
    ```
 3. **Install Dependencies:**
-```
-Install the required dependencies for the backend using Maven:
-mvn install
-```
-4. **Configure Database:**
+   Install the required dependencies for the backend using Maven:
    ```
+   mvn install
+   ```
+4. **Configure Database:**
    Set up a PostgreSQL or any other compatible database instance.
    Create a new database for the application and configure the database connection properties in the application.properties file located in the src/main/resources directory.
-   ```
 5. **Run the Application:**
-```
    Start the backend application by running the main class or using Maven:
+   ```
    mvn spring-boot:run
-```
+   ```
 The backend application will start and listen for incoming requests on the configured port 4000 (default port 8080 by default).
 
 
